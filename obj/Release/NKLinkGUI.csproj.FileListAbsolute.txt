@@ -1,0 +1,14 @@
+C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\bin\Release\NKLinkGUI.exe.config
+C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\bin\Release\NKLinkGUI.exe.manifest
+C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\bin\Release\NKLinkGUI.application
+C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\bin\Release\NKLinkGUI.exe
+C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\bin\Release\NKLinkGUI.pdb
+C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\obj\Release\NKLinkGUI.Form1.resources
+C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\obj\Release\NKLinkGUI.Properties.Resources.resources
+C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\obj\Release\NKLinkGUI.csproj.GenerateResource.cache
+C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\obj\Release\NKLinkGUI.csproj.CoreCompileInputs.cache
+C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\obj\Release\NKLinkGUI.exe.manifest
+C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\obj\Release\NKLinkGUI.application
+C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\obj\Release\NKLinkGUI.exe
+C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\obj\Release\NKLinkGUI.pdb
+C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\obj\Release\NKLinkGUI.csprojAssemblyReference.cache
