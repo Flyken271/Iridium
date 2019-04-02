@@ -3,11 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using System.Threading;
+
 
 namespace NKLinkGUI
 {
@@ -15,6 +19,7 @@ namespace NKLinkGUI
     {
 
         Point lastPoint;
+        Form2 f2 = new Form2();
 
         public Form1()
         {
@@ -52,19 +57,27 @@ namespace NKLinkGUI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            /*
-            System.Diagnostics.Process process = new System.Diagnostics.Process();
-            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
-            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-            startInfo.FileName = "nxlink";
-            startInfo.Arguments = textBox3.Text;
-            process.StartInfo = startInfo;
-            process.Start();
-            */
-            string strCmdText;
-            strCmdText = "-a" + textBox3.Text;
-            System.Diagnostics.Process.Start("nxlink.exe", strCmdText);
 
+            var proc = new Process
+            {
+                StartInfo = new ProcessStartInfo
+                {
+                    FileName = "nxlink.exe",
+                    Arguments = "-a" + textBox3.Text,
+                    UseShellExecute = false,
+                    RedirectStandardOutput = true,
+                    CreateNoWindow = true
+                }
+            };
+
+            proc.Start();
+            while (!proc.StandardOutput.EndOfStream)
+            {
+                string line = proc.StandardOutput.ReadLine();
+                f2.richTextBox1.AppendText(line);
+
+            }
+            proc.WaitForExit();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -79,12 +92,16 @@ namespace NKLinkGUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            if(Properties.Settings.Default.command != null && Properties.Settings.Default.IP != null && Properties.Settings.Default.ListNRO != null)
+            {
                 textBox2.Text = Properties.Settings.Default.IP;
-                foreach(object item in Properties.Settings.Default.ListNRO)
+                foreach (object item in Properties.Settings.Default.ListNRO)
                 {
                     listBox1.Items.Add(item);
                 }
-            textBox3.Text = Properties.Settings.Default.command;
+                textBox3.Text = Properties.Settings.Default.command;
+            }
+
         }
 
         private void Form1_MouseMove(object sender, MouseEventArgs e)
@@ -123,6 +140,18 @@ namespace NKLinkGUI
         private void button6_Click(object sender, EventArgs e)
         {
             listBox1.Items.Remove(listBox1.SelectedItem);
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                f2.Show();
+            }
+            else
+            {
+                f2.Hide();
+            }
         }
     }
 }

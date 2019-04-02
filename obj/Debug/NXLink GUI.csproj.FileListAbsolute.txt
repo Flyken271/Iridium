@@ -12,3 +12,18 @@ C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\obj\Debug\NKLinkGUI.exe.manifest
 C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\obj\Debug\NKLinkGUI.application
 C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\obj\Debug\NKLinkGUI.exe
 C:\Users\Jared\source\repos\NKLinkGUI\NKLinkGUI\obj\Debug\NKLinkGUI.pdb
+C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\obj\Debug\NXLink GUI.csprojAssemblyReference.cache
+C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\obj\Debug\NKLinkGUI.Form1.resources
+C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\obj\Debug\NKLinkGUI.Properties.Resources.resources
+C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\obj\Debug\NXLink GUI.csproj.GenerateResource.cache
+C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\obj\Debug\NXLink GUI.csproj.CoreCompileInputs.cache
+C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\obj\Debug\NKLinkGUI.exe.manifest
+C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\obj\Debug\NKLinkGUI.exe
+C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\obj\Debug\NKLinkGUI.pdb
+C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\bin\Debug\NKLinkGUI.exe.config
+C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\bin\Debug\NKLinkGUI.exe.manifest
+C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\bin\Debug\NKLinkGUI.application
+C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\bin\Debug\NKLinkGUI.exe
+C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\bin\Debug\NKLinkGUI.pdb
+C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\obj\Debug\NKLinkGUI.application
+C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\obj\Debug\NKLinkGUI.Form2.resources
