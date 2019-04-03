@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Threading;
-
+using System.IO;
 
 namespace NKLinkGUI
 {
@@ -19,12 +19,30 @@ namespace NKLinkGUI
     {
 
         Point lastPoint;
-        Form2 f2 = new Form2();
+
+        Size windSize = new Size(495, 325);
+
+        [DllImport("kernel32.dll",
+            EntryPoint = "GetStdHandle",
+            SetLastError = true,
+            CharSet = CharSet.Auto,
+            CallingConvention = CallingConvention.StdCall)]
+        private static extern IntPtr GetStdHandle(int nStdHandle);
+        [DllImport("kernel32.dll",
+            EntryPoint = "AllocConsole",
+            SetLastError = true,
+            CharSet = CharSet.Auto,
+            CallingConvention = CallingConvention.StdCall)]
+        private static extern int AllocConsole();
+        private const int STD_OUTPUT_HANDLE = -11;
+        private const int MY_CODE_PAGE = 437;
+
 
         public Form1()
         {
             InitializeComponent();
             //Form1.ActiveForm.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -58,26 +76,31 @@ namespace NKLinkGUI
         private void button2_Click(object sender, EventArgs e)
         {
 
-            var proc = new Process
+            var process = new Process
             {
                 StartInfo = new ProcessStartInfo
                 {
                     FileName = "nxlink.exe",
-                    Arguments = "-a" + textBox3.Text,
+                    Arguments = "-s -a" + textBox3.Text,
+                    CreateNoWindow = true,
                     UseShellExecute = false,
                     RedirectStandardOutput = true,
-                    CreateNoWindow = true
+                    RedirectStandardError = true
                 }
             };
+            process.Start();
+            //process.BeginOutputReadLine();
+            //process.BeginErrorReadLine();
 
-            proc.Start();
-            while (!proc.StandardOutput.EndOfStream)
-            {
-                string line = proc.StandardOutput.ReadLine();
-                f2.richTextBox1.AppendText(line);
+            StreamReader reader = process.StandardOutput;
+            string output = reader.ReadToEnd();
+            StreamReader readerERR = process.StandardError;
+            string outputERR = readerERR.ReadToEnd();
 
-            }
-            proc.WaitForExit();
+            richTextBox1.AppendText(Environment.NewLine + "[STANDARD] - " + output);
+            richTextBox1.AppendText(Environment.NewLine + "[ERROR] - " + outputERR);
+
+            process.WaitForExit();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -144,14 +167,20 @@ namespace NKLinkGUI
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
+            //Form1 f1 = new Form1;
             if (checkBox1.Checked)
             {
-                f2.Show();
+                ActiveForm.Size = new Size(930, 325);
             }
             else
             {
-                f2.Hide();
+                ActiveForm.Size = new Size(495, 325);
             }
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

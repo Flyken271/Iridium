@@ -26,4 +26,3 @@ C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\bin\Debug\NKLinkGUI.applic
 C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\bin\Debug\NKLinkGUI.exe
 C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\bin\Debug\NKLinkGUI.pdb
 C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\obj\Debug\NKLinkGUI.application
-C:\Users\Jared\Documents\GitHub\NXLink-GUI\NXLink-GUI\obj\Debug\NKLinkGUI.Form2.resources
