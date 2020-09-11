@@ -7,14 +7,14 @@
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="NKLinkGUI.exe.manifest" size="3466">
+    <dependentAssembly dependencyType="install" codebase="NKLinkGUI.exe.manifest" size="4098">
       <assemblyIdentity name="NKLinkGUI.exe" version="2.5.1.16" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Kd8C7Lus62Gt1o1DvA6LW284oU4A0Let7EC+EdVEPJQ=</dsig:DigestValue>
+        <dsig:DigestValue>XC0fJTQuRoMJpUVtT4+HNsXEYpAsYLoQzWt+Eclxz6Y=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

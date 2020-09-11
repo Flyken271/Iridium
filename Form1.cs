@@ -20,7 +20,7 @@ namespace NKLinkGUI
 
         Point lastPoint;
 
-        Size windSize = new Size(495, 325);
+        Size windSize = new Size(980, 355);
 
         [DllImport("kernel32.dll",
             EntryPoint = "GetStdHandle",
@@ -96,9 +96,14 @@ namespace NKLinkGUI
             string output = reader.ReadToEnd();
             StreamReader readerERR = process.StandardError;
             string outputERR = readerERR.ReadToEnd();
-
-            richTextBox1.AppendText(Environment.NewLine + "[STANDARD] - " + output);
-            richTextBox1.AppendText(Environment.NewLine + "[ERROR] - " + outputERR);
+            richTextBox1.SelectionColor = Color.Green;
+            
+            //richTextBox1.AppendText(Environment.NewLine + "[STANDARD] - " + output);
+            richTextBox1.SelectedText = Environment.NewLine + "[STANDARD] - " + output;
+            richTextBox1.SelectionColor = Color.Red;
+            
+            //richTextBox1.AppendText(Environment.NewLine + "[ERROR] - " + outputERR);
+            richTextBox1.SelectedText = Environment.NewLine + "[ERROR] - " + outputERR;
 
             process.WaitForExit();
         }
@@ -141,10 +146,6 @@ namespace NKLinkGUI
             lastPoint = new Point(e.X, e.Y);
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
         
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -165,18 +166,6 @@ namespace NKLinkGUI
             listBox1.Items.Remove(listBox1.SelectedItem);
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            //Form1 f1 = new Form1;
-            if (checkBox1.Checked)
-            {
-                ActiveForm.Size = new Size(930, 325);
-            }
-            else
-            {
-                ActiveForm.Size = new Size(495, 325);
-            }
-        }
 
         private void progressBar1_Click(object sender, EventArgs e)
         {

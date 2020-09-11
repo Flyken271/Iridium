@@ -5,7 +5,7 @@
 
 - Created By
 	- Flyken.
-	- Zexceil.
+	- Zexceil
 
 
 
@@ -14,9 +14,9 @@
 
 
 - Installation
-	- Download Latest Release.
-	- Extract the File.
+	- Clone or Download as ZIP.
 	- Open The Directory Created.
+	- Drag and Drop `nxlink.exe` and `zlib1.dll` to Directory Root.
 	- Run NKLinkGUI.exe.
 	- OPTIONAL: You Can Create Shortcut To NKLinkGUI.exe.
   
@@ -31,7 +31,7 @@
 	
   
 - Usage
-	- Select The NRO Using The `...` Button.
+	- Select The NRO Using The OpenFile Button.
 	- Type in IP of Your Switch.
 	- Click `Add NRO`.
 	- Select NRO From List.
