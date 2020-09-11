@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NXLink GUI", "NXLink GUI.csproj", "{2D0CB826-F753-442E-9A66-498F2610820F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iridium", "Iridium.csproj", "{2D0CB826-F753-442E-9A66-498F2610820F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

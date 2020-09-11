@@ -1,0 +1,17 @@
+C:\Users\jared\Documents\NXLink-GUI\bin\Debug\Iridium.exe.config
+C:\Users\jared\Documents\NXLink-GUI\bin\Debug\Iridium.exe.manifest
+C:\Users\jared\Documents\NXLink-GUI\bin\Debug\Iridium.application
+C:\Users\jared\Documents\NXLink-GUI\bin\Debug\Iridium.exe
+C:\Users\jared\Documents\NXLink-GUI\bin\Debug\Iridium.pdb
+C:\Users\jared\Documents\NXLink-GUI\bin\Debug\CsQuery.dll
+C:\Users\jared\Documents\NXLink-GUI\bin\Debug\CsQuery.xml
+C:\Users\jared\Documents\NXLink-GUI\obj\Debug\Iridium.csprojAssemblyReference.cache
+C:\Users\jared\Documents\NXLink-GUI\obj\Debug\Iridium.Form1.resources
+C:\Users\jared\Documents\NXLink-GUI\obj\Debug\Iridium.Properties.Resources.resources
+C:\Users\jared\Documents\NXLink-GUI\obj\Debug\Iridium.csproj.GenerateResource.cache
+C:\Users\jared\Documents\NXLink-GUI\obj\Debug\Iridium.csproj.CoreCompileInputs.cache
+C:\Users\jared\Documents\NXLink-GUI\obj\Debug\Iridium.exe.manifest
+C:\Users\jared\Documents\NXLink-GUI\obj\Debug\Iridium.application
+C:\Users\jared\Documents\NXLink-GUI\obj\Debug\Iridium.csproj.CopyComplete
+C:\Users\jared\Documents\NXLink-GUI\obj\Debug\Iridium.exe
+C:\Users\jared\Documents\NXLink-GUI\obj\Debug\Iridium.pdb

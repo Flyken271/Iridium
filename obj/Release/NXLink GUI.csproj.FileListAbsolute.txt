@@ -1,0 +1,16 @@
+C:\Users\jared\Documents\NXLink-GUI\bin\Release\NKLinkGUI.exe.config
+C:\Users\jared\Documents\NXLink-GUI\bin\Release\NKLinkGUI.exe.manifest
+C:\Users\jared\Documents\NXLink-GUI\bin\Release\NKLinkGUI.application
+C:\Users\jared\Documents\NXLink-GUI\bin\Release\NKLinkGUI.exe
+C:\Users\jared\Documents\NXLink-GUI\bin\Release\NKLinkGUI.pdb
+C:\Users\jared\Documents\NXLink-GUI\bin\Release\CsQuery.dll
+C:\Users\jared\Documents\NXLink-GUI\bin\Release\CsQuery.xml
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\NKLinkGUI.Form1.resources
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\NKLinkGUI.Properties.Resources.resources
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\NXLink GUI.csproj.GenerateResource.cache
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\NXLink GUI.csproj.CoreCompileInputs.cache
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\NKLinkGUI.exe.manifest
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\NKLinkGUI.application
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\NXLink GUI.csproj.CopyComplete
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\NKLinkGUI.exe
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\NKLinkGUI.pdb

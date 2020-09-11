@@ -1,4 +1,4 @@
-﻿namespace NKLinkGUI
+﻿namespace Iridium
 {
     partial class Form1
     {
@@ -45,6 +45,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -222,6 +223,17 @@
             this.richTextBox1.TabIndex = 16;
             this.richTextBox1.Text = "";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(-1, 1);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(100, 32);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "Iridium";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -229,6 +241,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(980, 355);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button4);
@@ -275,6 +288,7 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         public System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label label4;
     }
 }
 

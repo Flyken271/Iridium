@@ -13,7 +13,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.IO;
 
-namespace NKLinkGUI
+namespace Iridium
 {
     public partial class Form1 : Form
     {

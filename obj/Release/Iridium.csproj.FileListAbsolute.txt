@@ -1,0 +1,16 @@
+C:\Users\jared\Documents\NXLink-GUI\bin\Release\Iridium.exe.config
+C:\Users\jared\Documents\NXLink-GUI\bin\Release\Iridium.exe.manifest
+C:\Users\jared\Documents\NXLink-GUI\bin\Release\Iridium.application
+C:\Users\jared\Documents\NXLink-GUI\bin\Release\Iridium.exe
+C:\Users\jared\Documents\NXLink-GUI\bin\Release\Iridium.pdb
+C:\Users\jared\Documents\NXLink-GUI\bin\Release\CsQuery.dll
+C:\Users\jared\Documents\NXLink-GUI\bin\Release\CsQuery.xml
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\Iridium.Form1.resources
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\Iridium.Properties.Resources.resources
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\Iridium.csproj.GenerateResource.cache
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\Iridium.csproj.CoreCompileInputs.cache
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\Iridium.exe.manifest
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\Iridium.application
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\Iridium.csproj.CopyComplete
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\Iridium.exe
+C:\Users\jared\Documents\NXLink-GUI\obj\Release\Iridium.pdb
